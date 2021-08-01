@@ -6,6 +6,8 @@ package Question.randomNumber;
 public class RandomNumber {
     public static void main(String[] args) {
         int randomNumber = (int) (Math.random()*(1000));
+        System.out.println(randomNumber);
+
         int birlik = randomNumber % 10;
 
         randomNumber = randomNumber/10;
