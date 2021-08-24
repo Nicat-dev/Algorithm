@@ -8,7 +8,7 @@ class Result {
 
     public static int camelcase(String s) {
         // Write your code here
-        int count = 1;
+        int count = 0;
         for (int i = 0; i < s.length(); i++) {
             String str = String.valueOf(s.charAt(i));
             if (str.equals(str.toUpperCase())) {
